@@ -1,0 +1,52 @@
+/* Montserrat */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar{
+  width: 0.4rem;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #f953c6;
+  border-radius: 5px;
+}
+
+.bg {
+  /* background: #f953c6;
+  background: -webkit-linear-gradient(to right, #b91d73, #f953c6); */
+  /* background-color: linear-gradient(to right, #b91d73, #f953c6); */
+  background-image: radial-gradient(
+    circle farthest-corner at 3.2% 49.6%,
+    rgba(80, 12, 139, 0.87) 0%,
+    rgba(161, 10, 144, 0.72) 83.6%
+  );
+}
+
+.p-color {
+  color: #535353;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
