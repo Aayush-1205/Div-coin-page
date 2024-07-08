@@ -17,7 +17,7 @@ const Navbar = () => {
 
       {/* Button */}
       <div className='hidden md:block'>
-        <a href="#" className='bg-[#FEAED2] text-white px-2 py-1 md:px-5 md:py-2 rounded-full font-medium flex items-center gap-2 text-xs md:text-base'>Contact Us <FaArrowRightLong size={22} /></a>
+        <a href="#" className='bg-rose-600 text-white px-2 py-1 md:px-5 md:py-2 rounded-full font-medium flex items-center gap-2 text-xs md:text-base'>Contact Us <FaArrowRightLong size={22} /></a>
       </div>
     </nav>
   )
